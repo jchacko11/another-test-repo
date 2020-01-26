@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # [START gae_python37_app]
-from flask import Flask
+from flask import Flask, jsonify
 
 users = {}
 def addUser(userId, first, last, status, target, assassin):
