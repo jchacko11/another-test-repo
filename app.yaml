@@ -1,5 +1,6 @@
 runtime: python37
 handlers:
-- url: /
+- url: /fonts
+  static_dir: fonts
   http_headers:
     Access-Control-Allow-Origin: "*"
